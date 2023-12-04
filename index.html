@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Color</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1 id="title">RGB color maker</h1>
+    <h2 class="color-name">Red (R)</h2>
+    <div class="color-container">      
+      <input type="range" min="0" max="255" name="red-color" id="red-color" class="color">
+      <p class="value red-value">128</p>
+    </div>
+    <h2 class="color-name">Green (G)</h2>
+    <div class="color-container">
+      <input type="range" min="0" max="255" name="green-color" id="green-color" class="color">
+      <p class="value green-value">128</p>
+    </div>
+    <h2 class="color-name">Blue (B)</h2>
+    <div class="color-container">      
+      <input type="range" min="0" max="255" name="blue-color" id="blue-color" class="color">
+      <p class="value blue-value">128</p>
+    </div>    
+  </div>  
+  <script src="app.js"></script>
+</body>
+</html>
