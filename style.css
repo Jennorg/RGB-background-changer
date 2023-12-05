@@ -69,10 +69,11 @@ body {
 
 .color {
     flex-grow: 2;
+    max-width: 80%;
 }
 
 .value {
-    margin: 0 5px;
+    margin: auto;
 }                        
 
 /***** Chrome, Safari, Opera, and Edge Chromium *****/

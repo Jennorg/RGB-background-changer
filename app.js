@@ -14,18 +14,22 @@ const blueSlider = document.getElementById('blue-color');
 
 const colors = document.getElementsByClassName('color')
 
-redSlider.addEventListener('input', ()=>{
-    red = redSlider.value;
+redValue.innerText = red;
+greenValue.innerText = green;
+blueValue.innerText = blue;
+
+redSlider.addEventListener('input', (e)=>{
+    red = e.target.value;
     redValue.innerText = red;
 });
 
-greenSlider.addEventListener('input', ()=>{
-    green = greenSlider.value;
+greenSlider.addEventListener('input', (e)=>{
+    green = e.target.value;
     greenValue.innerText = green;
 });
 
-blueSlider.addEventListener('input', ()=>{
-    blue = blueSlider.value;
+blueSlider.addEventListener('input', (e)=>{
+    blue = e.target.value;
     blueValue.innerText = blue;
 });
 
